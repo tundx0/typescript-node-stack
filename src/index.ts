@@ -6,7 +6,7 @@ app.use(morgan('dev'));
 
 app.get('/', (req,res) => {
     res.json({
-        hello: 'world'
+        hello: 'Alex'
     });
 });
 const port = Number(process.env.PORT || 3333);
